@@ -44,4 +44,5 @@ class ImageCell: UITableViewCell {
         imageView?.image = nil
         dataTask?.cancel()
     }
+    
 }

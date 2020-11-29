@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069F02BE256FC2D7002A46E3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069F02BD256FC2D7002A46E3 /* DetailViewController.swift */; };
 		AEF3A30F2562D705007CCD92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A30E2562D705007CCD92 /* AppDelegate.swift */; };
 		AEF3A3112562D705007CCD92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3102562D705007CCD92 /* SceneDelegate.swift */; };
 		AEF3A3132562D705007CCD92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF3A3122562D705007CCD92 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		069F02BD256FC2D7002A46E3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AEF3A30B2562D705007CCD92 /* ImageLoadingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageLoadingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF3A30E2562D705007CCD92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEF3A3102562D705007CCD92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				AEF3A3172562D706007CCD92 /* Assets.xcassets */,
 				AEF3A3192562D706007CCD92 /* LaunchScreen.storyboard */,
 				AEF3A31C2562D706007CCD92 /* Info.plist */,
+				069F02BD256FC2D7002A46E3 /* DetailViewController.swift */,
 			);
 			path = ImageLoadingProject;
 			sourceTree = "<group>";
@@ -108,7 +111,7 @@
 				};
 			};
 			buildConfigurationList = AEF3A3062562D705007CCD92 /* Build configuration list for PBXProject "ImageLoadingProject" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,6 +149,7 @@
 				AEF3A3132562D705007CCD92 /* ViewController.swift in Sources */,
 				AEF3A3242562DBB3007CCD92 /* ImageCell.swift in Sources */,
 				AEF3A30F2562D705007CCD92 /* AppDelegate.swift in Sources */,
+				069F02BE256FC2D7002A46E3 /* DetailViewController.swift in Sources */,
 				AEF3A3112562D705007CCD92 /* SceneDelegate.swift in Sources */,
 				AEF3A3282562E4D4007CCD92 /* URLDetailsViewController.swift in Sources */,
 			);
@@ -224,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -301,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = amirzigangaraev.ImageLoadingProject;
+				PRODUCT_BUNDLE_IDENTIFIER = itis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,7 +324,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = amirzigangaraev.ImageLoadingProject;
+				PRODUCT_BUNDLE_IDENTIFIER = itis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
